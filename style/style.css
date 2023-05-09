@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+  img {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #73a3ec;
+  }
+
+
+
+    /* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  color: #333;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.menu {
+  color: #666;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #f4f4f4;
+}
+
+.menu a.active {
+  background-color: #f4f4f4;
+}
+
+.sidebar {
+  background-color: #f4f4f4;
+  padding: 20;
+}
+
+  .container{
+    max-width: 500px;
+    width: 100%;
+    background: #fff;;
+    padding: 25px 30px;
+    border-radius: 5px;
+  }
+
+  .container .title{
+    font-size: 25px;
+    font-weight: 600;
+    font-family:Poppins;
+    position: relative;
+  }
+  
+  .container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 20px;
+    background: #73a3ec;
+  }
+
+  .container form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% /2 - 20px);
+  }
+
+  .user-details .input-box .details{
+    font-family: Poppins;
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+ .user-details .input-box input{
+  height: 38px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 11px;
+  font-family: Poppins;
+ } 
+
+ form .button{
+  height: 43px;
+  margin: 20px 0;
+ }
+
+ form .button input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background:#73a3ec;
+ }
+
+ .already-login{
+  font-family: Poppins;
+  font-size: 10px;
+  text-align: center;
+ }
+
+ .container_1{
+  max-width: 500px;
+  width: 600px;
+  background: #fff;;
+  padding: 25px 30px;
+  border-radius: 5px;
+}
+
+.container_1 .title{
+  font-size: 25px;
+  font-weight: 600;
+  font-family:Poppins;
+  position: relative;
+}
+
+.container_1 .title::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 25px;
+  background: #73a3ec;
+}
+
+.container_1 form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box1{
+  margin-bottom: 15px;
+  width: calc(100% /2 - 20px);
+}
+
+.user-details .input-box1 .details{
+  font-family: Poppins;
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.user-details .input-box1 input{
+  height: 38px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  font-size: 11px;
+  font-family: Poppins;
+ } 
+
+ .header{
+  background: #f4f4f4;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  position: relative;
+  top: 0%;
+ 
+ }

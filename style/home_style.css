@@ -1,0 +1,237 @@
+
+
+.side_nav .slider{
+    background: #73a3ec;
+    height:100%;
+    width: 250px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.side_nav .slider .avatar{
+    margin-top: 45px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.side_nav .slider .avatar img{
+    display: block;
+    width: 100px;
+    height: 107px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+
+.side_nav .slider .avatar h3{
+color: white;
+margin: 5px 0 5px;
+font-family: Poppins;
+}
+
+.side_nav .slider .avatar p{
+    color: rgb(255, 255, 255);
+    margin: 0px 0 40px;
+    font-family: Poppins;
+    }
+    
+.side_nav .slider  ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    padding: 15px 30px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 14px;
+    position: relative;
+}
+    
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 18%;
+
+}
+
+.header .header_1{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 20px;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 13px;
+}
+
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+
+
+.container_3 {
+width: 1100px;
+height: auto;
+position: fixed;
+left: 255px;
+justify-content: space-between;
+
+}
+
+.box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 250px;
+    height: 120px;
+    background: #73a3ec;
+    margin: 10px;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 80px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.box text{
+    font-family: Roboto;
+    text-align: center;
+    font-size: 55px;
+    font-weight:bold;
+    color:aliceblue
+}
+
+.box p{
+    font-family: Poppins;
+    font-size: 12px;
+}
+
+#Students_fee {
+    font-family: Poppins;
+    border-collapse: collapse;
+    position:fixed;
+    top: 185px;
+    left: 300px;
+    width: 1000px;
+  }
+
+  #Students_fee td, #Students_fee th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+#Students_fee tr:nth-child(even){background-color: #f2f2f2;}
+
+#Students_fee tr:hover {background-color: #ddd;}
+
+#Students_fee th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #73a3ec;
+  color: white;
+}
+
+.txt_1{
+    position: fixed;
+    left: 270px;
+    top: 238px;
+    font-family: Comfortaa;
+    font-size: 12px;
+}
+
+.hr_1{
+width: 80%;
+position: fixed;
+top: 250px;
+left:270px ;
+border: 2px solid #73a3ec;
+}
+
+.container_4{
+    position:fixed;
+    top: 280px;
+    left: 270px;
+    width: 80%;
+    
+}
+
+h1{
+    position: fixed;
+    top: 80px;
+    font-family: Poppins;
+}
+
+.hr_2{
+    width: 80%;
+    position: fixed;
+    top: 135px;
+    left:270px ;
+    border: 2px solid #73a3ec;
+    }
+
+.container form .student_reg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+
+  form .student_reg .input-box{
+    margin-bottom: 5px;
+    width: calc(100% /2 - 20px);
+  }
+
+  .student_reg .input-box .details{
+    font-family: Poppins;
+    display: block;
+    font-weight: 500;
+    margin-bottom:5px;
+    font-size: 15px;
+  }
+
+  .student_reg .input-box input{
+    height: 38px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 11px;
+    font-family: Poppins;
+   } 
+
+   form .button{
+    height: 43px;
+    margin: 15px 0;
+   }
+
+   form .button input{
+    height: 100%;
+    width: 50%;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    background:#73a3ec;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+   }
+
+
+
